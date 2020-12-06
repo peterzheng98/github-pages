@@ -44,12 +44,47 @@ Currently, I'm a senior student in ACM Honors Class, Shanghai Jiao Tong Universi
 
 
 ## Projects
-TBA
+### System
+1. Mx* Compiler
+	- *December 2018 - June 2019, Language: **Java**, Individual Project*
+	- The compiler can compile Java-like language into x86 assembly. The performance is close to gcc optimization level 1 within certain test sets.
+	- Score: 94/100
+2. ChCore
+	- *July 2020 - August 2020, Language: **C**, Individual Project*
+	- A toy micro-kernel OS on AArch64 based on [the book](https://ipads.se.sjtu.edu.cn/mospi/).
+3. PintOS
+	- *April 2019 - June 2019, Language: **C**, Group Project as group leader*
+	- A toy Monolithic-kernel OS on x86. Coursework for operating system
+	- Finish user program, thread and virtual memory module.
+4. Toy RISC-V CPU on FPGA
+	- *November 2018 - January 2019, Language: **Verilog HDL**, Individual Project*
+	- Implemented and designed a RISC-V CPU with 5-stage pipeline in Verilog HDL.
+5. Simulating TCP BBR
+	- *December 2019, Language: **Rust**, Group Project*
+	- Use UDP Socket to simulate the TCP Connection and implement the algorithm of TCP BBR Congestion Control and TCP Reno CongestionControl.
+
+### Machine Learning
+6. Extraction Summarization in Hierarchy Structure
+	- *September 2019 - December 2019*
+	- Course project of Deep Learning And Its Applications. Use a hierarchy structure to extract some of the sentences from the source corpus to summarize the text.
+7. Large scale function binary code similarity matching
+	- *January 2020 - March 2020*
+	- Function level code matching using machine learning. The recall@10 is about 98%.
+8. Basic Text Classification(In Chinese)
+	- *March 2019 - June 2019*
+	- Binary classification task. Classified the comments into two groups which are positive or negative.
+	- Design an easy strategy that is vote-based ensemble to improve the accuracy. If all the model predict the same record with extremely high score, then this record can be confirmed as true. Also, the ensemble policy will smooth the fitted the function which will add more generalization on the model.
+9. Deep Learning Algorithms
+	- *October 2019 - January 2020*
+	- Implementing some classical Machine learning algorithms and basic computation library, including fully-connected layer, RNN, linear regression, basic matrix calculation(including basic operation and QR Decomposition, LU Decomposition at this time) and so on. The project only uses Standard Template Library(STL).
 
 ## Publications
 1. **A Novel Framework for Natural Language Understanding Based Image Enhancement**
 	- **Wenxin Zheng\***, Rui Zhu\*, Maosheng Zhu\*
 	- Proceeding of the 6th International Conference on Computer and Technology Applications(ICCTA 2020)
+2. TBA
 
 ## Contact via ...
-TBA
+Email: [wxzheng98 AT outlook DOT com](mailto:wxzheng98@outlook.com) or [peterzheng98 AT sjtu DOT edu DOT cn](mailto:peterzheng98@sjtu.edu.cn)
+
+Github: [peterzheng98](https://github.com/peterzheng98)

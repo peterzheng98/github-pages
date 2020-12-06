@@ -24,12 +24,12 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="About Me">
 <meta property="og:url" content="http://example.com/2020/12/06/hello-world/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="Pika~chu~">
 <meta property="og:description" content="About Me My name is Wenxin Zheng. Currently, I&#39;m a senior student in ACM Honors Class, Shanghai Jiao Tong University. I am expected to graduate in 2021 and I will join IPADS(Institution of Parallel an">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-12-06T11:13:49.352Z">
-<meta property="article:modified_time" content="2020-12-06T13:35:38.587Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:modified_time" content="2020-12-06T14:02:38.088Z">
+<meta property="article:author" content="Wenxin Zheng">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://example.com/2020/12/06/hello-world/">
@@ -45,7 +45,7 @@
   };
 </script>
 
-  <title>About Me | Hexo</title>
+  <title>About Me | Pika~chu~</title>
   
 
 
@@ -96,9 +96,10 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Hexo</h1>
+      <h1 class="site-title">Pika~chu~</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
+      <p class="site-subtitle" itemprop="description">Welcome!</p>
   </div>
 
   <div class="site-nav-right">
@@ -159,12 +160,12 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
+      <meta itemprop="name" content="Wenxin Zheng">
       <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="Pika~chu~">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -179,7 +180,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2020-12-06 19:13:49 / Modified: 21:35:38" itemprop="dateCreated datePublished" datetime="2020-12-06T19:13:49+08:00">2020-12-06</time>
+              <time title="Created: 2020-12-06 19:13:49 / Modified: 22:02:38" itemprop="dateCreated datePublished" datetime="2020-12-06T19:13:49+08:00">2020-12-06</time>
             </span>
 
           
@@ -230,7 +231,60 @@
 <li>(MS125) Principle and Practice of Computer Algorithms(For 2019 ACM Honors Class), <strong>Summer 2020</strong></li>
 </ol>
 <h2 id="projects">Projects</h2>
-<p>TBA</p>
+<h3 id="system">System</h3>
+<ol type="1">
+<li>Mx* Compiler
+<ul>
+<li><em>December 2018 - June 2019, Language: <strong>Java</strong>, Individual Project</em></li>
+<li>The compiler can compile Java-like language into x86 assembly. The performance is close to gcc optimization level 1 within certain test sets.</li>
+<li>Score: 94/100</li>
+</ul></li>
+<li>ChCore
+<ul>
+<li><em>July 2020 - August 2020, Language: <strong>C</strong>, Individual Project</em></li>
+<li>A toy micro-kernel OS on AArch64 based on <a target="_blank" rel="noopener" href="https://ipads.se.sjtu.edu.cn/mospi/">the book</a>.</li>
+</ul></li>
+<li>PintOS
+<ul>
+<li><em>April 2019 - June 2019, Language: <strong>C</strong>, Group Project as group leader</em></li>
+<li>A toy Monolithic-kernel OS on x86. Coursework for operating system</li>
+<li>Finish user program, thread and virtual memory module.</li>
+</ul></li>
+<li>Toy RISC-V CPU on FPGA
+<ul>
+<li><em>November 2018 - January 2019, Language: <strong>Verilog HDL</strong>, Individual Project</em></li>
+<li>Implemented and designed a RISC-V CPU with 5-stage pipeline in Verilog HDL.</li>
+</ul></li>
+<li>Simulating TCP BBR
+<ul>
+<li><em>December 2019, Language: <strong>Rust</strong>, Group Project</em></li>
+<li>Use UDP Socket to simulate the TCP Connection and implement the algorithm of TCP BBR Congestion Control and TCP Reno CongestionControl.</li>
+</ul></li>
+</ol>
+<h3 id="machine-learning">Machine Learning</h3>
+<ol start="6" type="1">
+<li>Extraction Summarization in Hierarchy Structure
+<ul>
+<li><em>September 2019 - December 2019</em></li>
+<li>Course project of Deep Learning And Its Applications. Use a hierarchy structure to extract some of the sentences from the source corpus to summarize the text.</li>
+</ul></li>
+<li>Large scale function binary code similarity matching
+<ul>
+<li><em>January 2020 - March 2020</em></li>
+<li>Function level code matching using machine learning. The recall@10 is about 98%.</li>
+</ul></li>
+<li>Basic Text Classification(In Chinese)
+<ul>
+<li><em>March 2019 - June 2019</em></li>
+<li>Binary classification task. Classified the comments into two groups which are positive or negative.</li>
+<li>Design an easy strategy that is vote-based ensemble to improve the accuracy. If all the model predict the same record with extremely high score, then this record can be confirmed as true. Also, the ensemble policy will smooth the fitted the function which will add more generalization on the model.</li>
+</ul></li>
+<li>Deep Learning Algorithms
+<ul>
+<li><em>October 2019 - January 2020</em></li>
+<li>Implementing some classical Machine learning algorithms and basic computation library, including fully-connected layer, RNN, linear regression, basic matrix calculation(including basic operation and QR Decomposition, LU Decomposition at this time) and so on. The project only uses Standard Template Library(STL).</li>
+</ul></li>
+</ol>
 <h2 id="publications">Publications</h2>
 <ol type="1">
 <li><strong>A Novel Framework for Natural Language Understanding Based Image Enhancement</strong>
@@ -238,9 +292,11 @@
 <li><strong>Wenxin Zheng*</strong>, Rui Zhu*, Maosheng Zhu*</li>
 <li>Proceeding of the 6th International Conference on Computer and Technology Applications(ICCTA 2020)</li>
 </ul></li>
+<li>TBA</li>
 </ol>
 <h2 id="contact-via-...">Contact via ...</h2>
-<p>TBA</p>
+<p>Email: <a href="mailto:wxzheng98@outlook.com">wxzheng98 AT outlook DOT com</a> or <a href="mailto:peterzheng98@sjtu.edu.cn">peterzheng98 AT sjtu DOT edu DOT cn</a></p>
+<p>Github: <a target="_blank" rel="noopener" href="https://github.com/peterzheng98">peterzheng98</a></p>
 
     </div>
 
@@ -311,13 +367,13 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#about-me"><span class="nav-number">1.</span> <span class="nav-text">About Me</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#research-interests"><span class="nav-number">2.</span> <span class="nav-text">Research Interests</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#research-experience"><span class="nav-number">3.</span> <span class="nav-text">Research Experience</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#apex-data-and-management-lab"><span class="nav-number">3.1.</span> <span class="nav-text">Apex Data and Management Lab</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#os-kernel-lab"><span class="nav-number">3.2.</span> <span class="nav-text">OS Kernel Lab</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#institution-of-parallel-and-distributed-systems"><span class="nav-number">3.3.</span> <span class="nav-text">Institution of Parallel and Distributed Systems</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#teaching-experience"><span class="nav-number">4.</span> <span class="nav-text">Teaching Experience</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#projects"><span class="nav-number">5.</span> <span class="nav-text">Projects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#publications"><span class="nav-number">6.</span> <span class="nav-text">Publications</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#contact-via-..."><span class="nav-number">7.</span> <span class="nav-text">Contact via ...</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#about-me"><span class="nav-number">1.</span> <span class="nav-text">About Me</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#research-interests"><span class="nav-number">2.</span> <span class="nav-text">Research Interests</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#research-experience"><span class="nav-number">3.</span> <span class="nav-text">Research Experience</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#apex-data-and-management-lab"><span class="nav-number">3.1.</span> <span class="nav-text">Apex Data and Management Lab</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#os-kernel-lab"><span class="nav-number">3.2.</span> <span class="nav-text">OS Kernel Lab</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#institution-of-parallel-and-distributed-systems"><span class="nav-number">3.3.</span> <span class="nav-text">Institution of Parallel and Distributed Systems</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#teaching-experience"><span class="nav-number">4.</span> <span class="nav-text">Teaching Experience</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#projects"><span class="nav-number">5.</span> <span class="nav-text">Projects</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#system"><span class="nav-number">5.1.</span> <span class="nav-text">System</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#machine-learning"><span class="nav-number">5.2.</span> <span class="nav-text">Machine Learning</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#publications"><span class="nav-number">6.</span> <span class="nav-text">Publications</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#contact-via-..."><span class="nav-number">7.</span> <span class="nav-text">Contact via ...</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">John Doe</p>
+  <p class="site-author-name" itemprop="name">Wenxin Zheng</p>
   <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap motion-element">
@@ -357,7 +413,7 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">Wenxin Zheng</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
   </div>
