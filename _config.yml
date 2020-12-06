@@ -98,13 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: polarbearsimple
-
-archive_generator:
-    per_page: 0
-    yearly: false
-    monthly: false
-    daily: false
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
