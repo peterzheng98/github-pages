@@ -1,5 +1,5 @@
 ---
-title: about
+title: About Me
 date: 2020-12-06 19:53:52
 ---
 
@@ -47,10 +47,7 @@ Currently, I'm a senior student in ACM Honors Class, Shanghai Jiao Tong Universi
 TBA
 
 ## Publications
-1. **CodeCMR: Cross-Modal Retrieval For Function-Level Binary Source Code Matching **
-	- Zeping Yu, **Wenxin Zheng**, Jiaqi Wang, Qiyi Tang, Sen Nie, Shi Wu
-	- Advances in Neural Information Processing Systems 33 pre-proceedings (NeurIPS 2020)
-2. **A Novel Framework for Natural Language Understanding Based Image Enhancement**
+1. **A Novel Framework for Natural Language Understanding Based Image Enhancement**
 	- **Wenxin Zheng\***, Rui Zhu\*, Maosheng Zhu\*
 	- Proceeding of the 6th International Conference on Computer and Technology Applications(ICCTA 2020)
 
