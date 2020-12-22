@@ -23,7 +23,7 @@ Currently, I'm a senior student in ACM Honors Class, Shanghai Jiao Tong Universi
 ### OS Kernel Lab
 *Huawei, Central Software Institution. Advised by [Prof. Haibo Chen](https://ipads.se.sjtu.edu.cn/pub/members/haibo_chen)*
 
-* July 2020 - Present
+* July 2020 - December 2020
 * Research Topic: Memory model problems in application cross-platform migration(From x86 to ARM)
 
 ### Institution of Parallel and Distributed Systems
@@ -81,9 +81,11 @@ Currently, I'm a senior student in ACM Honors Class, Shanghai Jiao Tong Universi
 1. **A Novel Framework for Natural Language Understanding Based Image Enhancement**
 	- **Wenxin Zheng\***, Rui Zhu\*, Maosheng Zhu\*
 	- Proceeding of the 6th International Conference on Computer and Technology Applications(ICCTA 2020)
-2. TBA
+2. **CodeCMR: Cross-Modal Retrieval For Function-Level Binary Source Code Matching**
+	- Zeping Yu, **Wenxin Zheng**, Jiaqi Wang, Qiyi Tang, Sen Nie, Shi Wu
+	- Advances in Neural Information Processing Systems 33 pre-proceedings (NeurIPS 2020)
 
 ## Contact via ...
-Email: [wxzheng98 AT outlook DOT com](mailto:wxzheng98@outlook.com) or [peterzheng98 AT sjtu DOT edu DOT cn](mailto:peterzheng98@sjtu.edu.cn)
+Email: [wenxinzheng DOT cs AT gmail DOT com](mailto:wenxinzheng.cs@gmail.com) or [peterzheng98 AT sjtu DOT edu DOT cn](mailto:peterzheng98@sjtu.edu.cn)
 
 Github: [peterzheng98](https://github.com/peterzheng98)
